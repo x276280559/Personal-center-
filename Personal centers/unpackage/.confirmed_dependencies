@@ -1,0 +1,16 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"css/center.css",
+			"img/hd_bg.png",
+			"img/xiazai.png",
+			"img/xinfeng.png",
+			"img/user-photo.4d1e36f.png",
+			"js/echarts.common.min.js",
+			"img/phone.png"
+		]
+	}
+}

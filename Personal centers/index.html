@@ -75,21 +75,113 @@
 				</div>
 				<div class="xiaofei">
 					<h4 style="padding-left:15px;">消费总览</h4>
-					<div id="a" style="width:100%;height:244px;padding:0 20px 0">
-						
-					</div>
+					<div class="xf_in">
+						<div id="a" style="width:50%;height:244px;padding-left:10px;float:left;"></div>
+						<div class="xiaofei_r">
+							<li class="li_p01">
+								<p></p>
+								<span>现金积分</span>
+								<span></span>
+							</li>
+							<li class="li_p02">
+								<p></p>
+								<span>金积分</span>
+								<span></span>
+							</li>
+							<li class="li_p03">
+								<p></p>
+								<span>银积分</span>
+								<span></span>
+							</li>
+							<li class="li_p04">
+								<p></p>
+								<span>AEQr币</span>
+								<span></span>
+							</li>
+							<li class="li_p05">
+								<p></p>
+								<span>AEQC币</span>
+								<span></span>
+							</li>
+							<li class="li_p06">
+								<p></p>
+								<span>AEQC锁仓币</span>
+								<span></span>
+							</li>
+							<li class="li_p07">
+								<p></p>
+								<span>AEQC可交易币</span>
+								<span></span>
+							</li>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
 		<div class="m-navlist">
 			<div>
-				<div class="nav_l">
-					<p>手机充值</p>
-				</div>
-				<div class="nav_r">
-					<a class="mui-icon mui-icon-forward"></a>
+				<div class="list-details">
+					<div class="nav_l">
+						<p>手机充值</p>
+					</div>
+					<div class="nav_r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
+				</div>	
+			</div>
+			<div>
+				<div class="list-details">
+					<div class="nav_l">
+						<p>我的二维码</p>
+					</div>
+					<div class="nav_r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
 				</div>
 			</div>
+			<div>
+				<div class="list-details">
+					<div class="nav_l">
+						<p>市场管理</p>
+					</div>
+					<div class="nav_r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
+				</div>
+				<div class="nav-details nav-position01">
+					<div class="nav-details-l">
+						<p>注册会员</p>
+					</div>
+					<div class="nav-details-r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
+				</div>
+				<div class="nav-details nav-position02">
+					<div class="nav-details-l">
+						<p>在线升级</p>
+					</div>
+					<div class="nav-details-r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
+				</div>
+				<div class="nav-details nav-position03">
+					<div class="nav-details-l">
+						<p>在线复投</p>
+					</div>
+					<div class="nav-details-r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
+				</div>
+				<div class="nav-details nav-position04">
+					<div class="nav-details-l">
+						<p>购买激活码</p>
+					</div>
+					<div class="nav-details-r">
+						<a class="mui-icon mui-icon-forward"></a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		<!--内容 --end-->
 	</div>
@@ -102,40 +194,22 @@
       	option = {
 	    tooltip : {
 	        trigger: 'item',
+	        confine:'true',
+	        position:'inside',
 	        formatter: "{a} <br/>{b} : {c} ({d}%)"
 	    },
-	    legend: {
-	        orient : 'vertical',
-	        x : 'left',
-	        data:['现金积分','金积分','银积分','AEQr币','AEQC币','AEQC锁仓币','AEQC可交易币']
-	    },
-	    toolbox: {
-	        show : true,
-	        feature : {
-	            mark : {show: true},
-	            dataView : {show: true, readOnly: false},
-	            magicType : {
-	                show: true, 
-	                type: ['pie', 'funnel'],
-	                option: {
-	                    funnel: {
-	                        x: '25%',
-	                        width: '50%',
-	                        funnelAlign: 'center',
-	                        max: 1548
-	                    }
-	                }
-	            },
-	            restore : {show: true},
-	            saveAsImage : {show: true}
-	        }
-	    },
+	    //图例组件展现了不同系列的标记(symbol)，颜色和名字
+//	    legend: {
+//	        orient : 'vertical',//图例布局的朝向
+//	       x : 'left',
+//	        data:['现金积分','金积分','银积分','AEQr币','AEQC币','AEQC锁仓币','AEQC可交易币']
+//	    },
 	    calculable : true,
 	    series : [
 	        {
 	            name:'访问来源',
 	            type:'pie',
-	            radius : ['50%', '70%'],
+	            radius : ['40%','60%'],
 	            itemStyle : {
 	                normal : {
 	                    label : {
@@ -145,6 +219,7 @@
 	                        show : false
 	                    }
 	                },
+	                //高亮扇形
 	                emphasis : {
 	                    label : {
 	                        show : true,

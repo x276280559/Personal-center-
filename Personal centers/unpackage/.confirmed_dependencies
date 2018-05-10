@@ -10,7 +10,16 @@
 			"img/xinfeng.png",
 			"img/user-photo.4d1e36f.png",
 			"js/echarts.common.min.js",
-			"img/phone.png"
+			"img/phone.png",
+			"img/code.png",
+			"img/shichang.png",
+			"img/wife.png",
+			"img/money.png",
+			"img/order.png",
+			"img/info.png",
+			"img/address.png",
+			"js/center.js",
+			"js/a.js"
 		]
 	}
 }

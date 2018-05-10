@@ -194,10 +194,29 @@ body{
 	width:100%;height:44px;background:#fff;border-bottom: 1px solid #C7C7CC;
 	position: relative;
 }
+/*特定设了高，固定死的值，js隐藏需要取消                   --标注*/
+.m-navlist>div.shichang-height{
+	height:220px;
+}
+.m-navlist>div.money-height{
+	height:352px;
+}
+.m-navlist>div.order-height,
+.m-navlist>div.address-height{
+	height:132px;
+}
+.m-navlist>div.info-height{
+	height:176px;
+}
+
+/*.wife-management{
+	position:absolute;left:0;top:176px;
+}*/
 .nav-details{
 	width:100%;border-bottom: 1px solid #C7C7CC;
 	padding-left:4%;
 }
+
 .nav-position01{
 	position: absolute;left:0;top:44px;
 }
@@ -210,6 +229,16 @@ body{
 .nav-position04{
 	position: absolute;left:0;top:176px;
 }
+.nav-position05{
+	position: absolute;left:0;top:220px;
+}
+.nav-position06{
+	position: absolute;left:0;top:264px;
+}
+.nav-position07{
+	position: absolute;left:0;top:308px;
+}
+
 .nav-details-l{
 	line-height:44px;margin-left:10px;float:left;
 }
@@ -228,8 +257,32 @@ body{
 	clear: both;
 }
 .nav_l{
-	padding-left:30px;background:url(../img/phone.png) no-repeat 0 10px;
+	padding-left:30px;
 	background-size:24px;line-height:44px;margin-left:10px;float:left;
+}
+.nav_l.phone{
+	background:url(../img/phone.png) no-repeat 0 10px;
+}
+.nav_l.code{
+	background:url(../img/code.png) no-repeat 0 10px;
+}
+.nav_l.shichang{
+	background:url(../img/shichang.png) no-repeat 0 10px;
+}
+.nav_l.wife{
+	background:url(../img/wife.png) no-repeat 0 10px;
+}
+.nav_l.money{
+	background:url(../img/money.png) no-repeat 0 10px;
+}
+.nav_l.order{
+	background:url(../img/order.png) no-repeat 0 10px;
+}
+.nav_l.info{
+	background:url(../img/info.png) no-repeat 0 10px;
+}
+.nav_l.address{
+	background:url(../img/address.png) no-repeat 0 10px;
 }
 .nav_l p,
 .nav-details p{

@@ -21,5 +21,30 @@
 			"js/center.js",
 			"js/a.js"
 		]
+	},
+	"page/PrePaid-phone.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/PrePaid-phone.css"
+		]
+	},
+	"page/code.html": {
+		"resources": [
+			"img/code_bg.png",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/code.css"
+		]
+	},
+	"page/registered.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/registered.css",
+			"img/registered_image.png"
+		]
 	}
 }

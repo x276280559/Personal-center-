@@ -243,7 +243,13 @@
 					"fonts/mui.ttf",
 					"css/mui.min.css",
 					"css/registered.css",
-					"img/registered_image.png"
+					"img/registered_image.png",
+					"img/registered_pwd.png",
+					"img/registered_referees.png",
+					"img/registered_Id_number.png",
+					"img/registered_phone.png",
+					"img/registered_name.png",
+					"img/registered_emall.png"
 				],
 				"refer": [],
 				"priority": 0

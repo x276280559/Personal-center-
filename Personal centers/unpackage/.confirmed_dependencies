@@ -52,5 +52,18 @@
 			"img/registered_name.png",
 			"img/registered_emall.png"
 		]
+	},
+	"page/Online-upgrade.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/Online-upgrade.css",
+			"js/mui.picker.min.js",
+			"css/mui.poppicker.css",
+			"css/mui.picker.all.css",
+			"js/mui.poppicker.js",
+			"js/mui.picker.all.js"
+		]
 	}
 }

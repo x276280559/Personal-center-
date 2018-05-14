@@ -65,5 +65,28 @@
 			"js/mui.poppicker.js",
 			"js/mui.picker.all.js"
 		]
+	},
+	"page/Online-after-shots.html": {
+		"resources": [
+			"js/mui.picker.min.js",
+			"js/mui.min.js",
+			"js/mui.poppicker.js",
+			"fonts/mui.ttf",
+			"css/mui.picker.all.css",
+			"css/mui.min.css",
+			"css/Online-upgrade.css",
+			"css/mui.poppicker.css",
+			"js/mui.picker.all.js",
+			"css/Online-after-shots.css"
+		]
+	},
+	"page/Activation-code.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/Online-after-shots.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/Activation-code.css"
+		]
 	}
 }
